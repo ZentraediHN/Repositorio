@@ -1,6 +1,9 @@
 #!/bin/bash
 
-for i in *ogg;
+# Convertir archivos de audio .wav a .mp3
+#----------------------------------------
+
+for i in *wav;
 do
-ogg123 -d wav -f - "$i" | lame - "${i/ogg/mp3}";
+lame "$i" "${i/wav/mp3}" -b 256;
 done
