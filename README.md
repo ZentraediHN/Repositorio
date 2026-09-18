@@ -88,35 +88,14 @@ For example:
 archivo1.pdf  →  2026-09/
 archivo2.jpg  →  2026-09/
 archivo3.txt  →  2026-08/
-
+```
 Resulting structure:
 
-2026-08/
+```2026-08/
 └── archivo3.txt
 
 2026-09/
 ├── archivo1.pdf
 └── archivo2.jpg
-
-
-### Una observación importante
-
-Si este es **el mismo script que me mostraste antes como `CrearCarpetasFecha.sh`**, no necesitas tener dos descripciones en el README. Simplemente pondríamos el nombre real del archivo.
-
-Y si la carpeta `archivador` contiene **estos dos scripts**, podría quedar así:
-
-```markdown
-## Archivador
-
-The `archivador` directory contains Bash scripts for automatically organizing files into folders.
-
-### Scripts
-
-#### `CrearCarpetas.sh`
-
-Creates a separate directory for each regular file based on its filename and moves the file into the corresponding directory.
-
-#### `CrearCarpetasFecha.sh`
-
-Organizes files into directories based on their year and month of modification, using the `YYYY-MM` format.
+```
 
