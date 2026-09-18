@@ -35,7 +35,7 @@ imagen/
 
 
 
-## `CrearCarpetasFecha.sh`
+#### `Creardirectorios.sh`
 
 Organizes files into directories based on their year and month of modification.
 
