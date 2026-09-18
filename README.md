@@ -27,7 +27,8 @@ imagen.jpg
 
 becomes:
 
-```documento/
+```text
+documento/
 └── documento.pdf
 
 imagen/
@@ -50,13 +51,15 @@ If the directory already exists, the file is moved into it.
 
 For example:
 
-```archivo1.pdf  → 2026-09/
+```text
+archivo1.pdf  → 2026-09/
 archivo2.jpg  → 2026-09/
 archivo3.txt  → 2026-08/
 ```
 Resulting structure:
 
-```2026-08/
+```text
+2026-08/
 └── archivo3.txt
 
 2026-09/
@@ -91,7 +94,8 @@ archivo3.txt  →  2026-08/
 ```
 Resulting structure:
 
-```2026-08/
+```text
+2026-08/
 └── archivo3.txt
 
 2026-09/
