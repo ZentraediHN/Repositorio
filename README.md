@@ -27,12 +27,12 @@ imagen.jpg
 
 becomes:
 
-documento/
+```documento/
 └── documento.pdf
 
 imagen/
 └── imagen.jpg
-
+```
 
 
 #### `Creardirectorios.sh`
@@ -50,19 +50,19 @@ If the directory already exists, the file is moved into it.
 
 For example:
 
-archivo1.pdf  → 2026-09/
+```archivo1.pdf  → 2026-09/
 archivo2.jpg  → 2026-09/
 archivo3.txt  → 2026-08/
-
+```
 Resulting structure:
 
-2026-08/
+```2026-08/
 └── archivo3.txt
 
 2026-09/
 ├── archivo1.pdf
 └── archivo2.jpg
-
+```
 Requirements
 Linux or another Unix-like operating system
 Bash
