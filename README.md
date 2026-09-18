@@ -23,7 +23,7 @@ For example:
 ```text
 documento.pdf
 imagen.jpg
-
+```
 
 becomes:
 
