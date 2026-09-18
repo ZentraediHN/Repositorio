@@ -22,7 +22,7 @@ For example:
 
 ```text
 documento.pdf
-imagen.jpg
+imagen.jpg```
 
 
 becomes:
